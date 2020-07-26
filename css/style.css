@@ -346,23 +346,33 @@ body{
 	content: 'Omdb API';
 }
 .chl11{
-	background: url(../img/Cenzor.png);
+	background: url(../img/Angular-List.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .chl11::after{
-	content: 'Cenzor Words';
+	content: 'Angular List';
 }
 .chl12{
-	background: url(../img/User-List.png);
+	background: url(../img/Angular-Blog.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .chl12::after{
-	content: 'User List';
+	content: 'Angular Blog';
 }
+.chl13{
+	background: url(../img/Angular-Blog-2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.chl13::after{
+	content: 'Angular Blog 2';
+}
+
 /*Choice img*/
 .work h2{
 	font-family: Montserrat;
@@ -486,9 +496,6 @@ img{
 	height: 40px;
 }
 @media only screen and (max-width: 375px){
-	.work_img:before{
-    	transform: translateX(-20em) skewX(-45deg);
-	}
 	.work{
 		margin-left: 10px;
     	margin-right: 10px;
