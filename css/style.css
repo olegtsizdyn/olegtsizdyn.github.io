@@ -99,14 +99,38 @@ body{
     text-transform: uppercase;
     text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
-.skill{
-	margin-bottom: 20px;
+.skills_wrap{
+	margin-top: -100px;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.decription_skills{
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
+}
+.skill{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
-.skill h3{
+.skill p{
+	margin: 0;
+	font-family: Poppins;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+.skill h4{
 	margin: 0;
 	font-family: Poppins;
     font-size: 35px;
