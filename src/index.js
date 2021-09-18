@@ -1,10 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import { SectionsContainer } from 'react-fullpage';
+
+import { defaultConfigFullPage } from './static/options';
+
+import Welcome from './pages/Welcome';
+import About from './pages/About';
+import Skills from './pages/Skills';
+import Examples from './pages/Examples';
+import Contacts from './pages/Contacts';
+
+import './normalize.css';
+import './styles/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SectionsContainer {...defaultConfigFullPage}>
+      <Welcome />
+      <About />
+      <Skills />
+      <Examples />
+      <Contacts />
+    </SectionsContainer>
   </React.StrictMode>,
   document.getElementById('root')
 );
