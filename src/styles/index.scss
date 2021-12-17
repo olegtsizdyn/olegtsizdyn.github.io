@@ -1,13 +1,12 @@
-@import './welcome.scss';
 @import './components/toggle.scss';
 
 .container{
-    &_dark{
-        background: black;
-        color: white;
-    }
-    &_light{
-        background: white;
-        color: black;
-    }
+  &_dark{
+    background: black;
+    color: white;
+  }
+  &_light{
+    background: white;
+    color: black;
+  }
 }
