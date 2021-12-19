@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { SectionsContainer } from 'react-fullpage';
 
 import { 
-  darkModeConfigFullPage, 
-  lightModeConfigFullPage 
-} from './static/options';
+  darkModeConfigFullPage,
+} from './static/config';
 
 import Welcome from './pages/Welcome';
 import About from './pages/About';

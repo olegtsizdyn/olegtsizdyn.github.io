@@ -4,12 +4,12 @@ import { Section } from 'react-fullpage';
 import { 
   darkModeConfigFullPage, 
   lightModeConfigFullPage 
-} from '../static/options';
+} from '../static/config';
 
 const Welcome = (props) => {
   return (
     <Section>
-      <div class="toggle-btn" id="_1st-toggle-btn">
+      <div className="toggle-btn" id="_1st-toggle-btn">
 				<input type="checkbox" id="checkbox" onChange={e => e.target.checked ? props.setTheme(lightModeConfigFullPage) : props.setTheme(darkModeConfigFullPage)} />
 				<span></span>
 			</div>
