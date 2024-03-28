@@ -65,3 +65,7 @@ body {
   #root{
     width: 100%;
   }
+
+  a{
+    color: white !important;
+  }
