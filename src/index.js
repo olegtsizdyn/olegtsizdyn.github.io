@@ -21,7 +21,7 @@ ReactDOM.render(
     >
       <div>
         <s>Whoops. Something went wrong! 🙃</s> <br />
-        App in the condition of developing 😉
+        I will definitely make my own site someday with an example of my projects, <br /> a description of my skills and all of that, <br /> but for now, <a href="https://www.linkedin.com/in/oleg-tsizdyn-3b7882196/">go to my linkedin</a> 😉
       </div>
     </div>
   </React.StrictMode>,
