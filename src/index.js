@@ -23,7 +23,7 @@ ReactDOM.render(
         <s>Whoops. Something went wrong! 🙃</s> <br /> <br />
         
         I'll definitely complete my own site someday. <br />
-        But for now, <a href="https://www.linkedin.com/in/oleg-tsizdyn-3b7882196/">let's check my LinkedIn</a> 😉
+        However, for now, <a href="https://www.linkedin.com/in/oleg-tsizdyn-3b7882196/">let's check my LinkedIn</a> 😉
       </div>
     </div>
   </React.StrictMode>,
